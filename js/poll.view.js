@@ -115,11 +115,6 @@ function _getPollHtml(poll, showResults) {
                             <i class="far fa-clock"></i>
                             ${convertUnixStampToScreenDate(Date.parse(poll.created))}
                         </div>
-        
-                        <div class="from">
-                            <i class="far fa-user"></i>
-                            <span>${poll.wallet}</span>
-                        </div>
                     </div>
                 </div>
             </div>
